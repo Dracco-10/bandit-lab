@@ -46,3 +46,13 @@ ls
 cd inhere
 file ./*
 cat ./-file07
+
+## Bandit Level 5
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+
+**Comandos utilizados:**
+```bash
+cd inhere
+find . -type f -size 1033c ! -executable
+cat ./maybehere07/.file2
