@@ -35,3 +35,14 @@ ls
 cd inhere
 ls -la
 cat ...Hiding-From-You
+
+## Bandit Level 4
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+
+**Comandos utilizados:**
+```bash
+ls
+cd inhere
+file ./*
+cat ./-file07
