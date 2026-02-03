@@ -81,3 +81,11 @@ Encontrar la contraseña del siguiente nivel.
 **Comandos utilizados:**
 ```bash
 sort data.txt | uniq -u
+
+## Bandit Level 9
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+
+**Comandos utilizados:**
+```bash
+strings data.txt | grep "="
