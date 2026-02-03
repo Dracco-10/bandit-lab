@@ -89,3 +89,12 @@ Encontrar la contraseña del siguiente nivel.
 **Comandos utilizados:**
 ```bash
 strings data.txt | grep "="
+
+## Bandit Level 10
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+
+**Comandos utilizados:**
+```bash
+ls
+base64 -d data.txt
