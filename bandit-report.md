@@ -65,3 +65,11 @@ Encontrar la contraseña del siguiente nivel.
 ```bash
 find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
 cat /var/lib/dpkg/info/bandit7.password
+
+## Bandit Level 7
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+
+**Comandos utilizados:**
+```bash
+grep millionth data.txt
