@@ -73,3 +73,11 @@ Encontrar la contraseña del siguiente nivel.
 **Comandos utilizados:**
 ```bash
 grep millionth data.txt
+
+## Bandit Level 8
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+
+**Comandos utilizados:**
+```bash
+sort data.txt | uniq -u
